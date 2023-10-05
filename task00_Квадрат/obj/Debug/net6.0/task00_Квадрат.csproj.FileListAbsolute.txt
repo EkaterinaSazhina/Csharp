@@ -1,0 +1,15 @@
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\bin\Debug\net6.0\task00_Квадрат.exe
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\bin\Debug\net6.0\task00_Квадрат.deps.json
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\bin\Debug\net6.0\task00_Квадрат.runtimeconfig.json
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\bin\Debug\net6.0\task00_Квадрат.dll
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\bin\Debug\net6.0\task00_Квадрат.pdb
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\task00_Квадрат.csproj.AssemblyReference.cache
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\task00_Квадрат.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\task00_Квадрат.AssemblyInfoInputs.cache
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\task00_Квадрат.AssemblyInfo.cs
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\task00_Квадрат.csproj.CoreCompileInputs.cache
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\task00_Квадрат.dll
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\refint\task00_Квадрат.dll
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\task00_Квадрат.pdb
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\task00_Квадрат.genruntimeconfig.cache
+C:\Users\teos2\OneDrive\Desktop\Tasks\task00_Квадрат\obj\Debug\net6.0\ref\task00_Квадрат.dll
