@@ -8,7 +8,7 @@
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int result = 0;
-for (int i = number; i > 100; i /= 10)
+for (int i = number; i >= 100; i /= 10)
 {
     result = i % 10;
 }
