@@ -11,7 +11,7 @@ int userX = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координаты точки. Y: ");
 int userY = Convert.ToInt32(Console.ReadLine());
 if (userX>0 && userY>0) System.Console.WriteLine("Точка находится в первой четверти");
-if (userX<0 && userY<0) System.Console.WriteLine("Точка находится в второй четверти");
+if (userX<0 && userY>0) System.Console.WriteLine("Точка находится в второй четверти");
 if (userX<0 && userY<0) System.Console.WriteLine("Точка находится в третьей четверти");
 if (userX>0 && userY<0) System.Console.WriteLine("Точка находится в четвертой четверти");
 if (userX==0 || userY==0) System.Console.WriteLine("Точка находится на оси координат");
