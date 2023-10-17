@@ -4,9 +4,18 @@
 3, 5 -> 243 (3⁵)
 2, 4 -> 16
 */ 
-System.Console.Write("Введите число А: ");
+System.Console.Write("Введите первое число: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
-System.Console.Write("Введите число В: ");
+System.Console.Write("Введите второе число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
-double result = Math.Pow(numberA, numberB);
-System.Console.WriteLine(result);
+Met(numberA, numberB);
+
+void Met(int a, int b)
+{
+    int result = 1;
+    for (int i = 0; i < b; i++)
+    {
+        result = result * a;
+    }
+    System.Console.WriteLine(result);
+}

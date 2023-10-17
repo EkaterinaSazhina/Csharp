@@ -5,12 +5,12 @@
 */
 Console.Clear();
 
-int[] GetArray(int start, int end, int size)
+int[] GetArray(int start, int end, int size) // начало, конец и размер массива
 {
     int[] array = new int[size];
     for (int i = 0; i < size; i++)
     {
-        array[i] = new Random().Next(start, end+1);
+        array[i] = new Random().Next(start, end + 1);  // заполняем массив рандомными числами в диапазоне введеных данных
     }
     return array;
 }
@@ -22,7 +22,7 @@ void PrintArray(int[] arr)
     {
         System.Console.Write(arr[i]);
         if (i < arr.Length - 1)
-        System.Console.Write(", ");//[5, 7, 1, 4]
+            System.Console.Write(", ");//[5, 7, 1, 4]
     }
     System.Console.Write("]");
 }
