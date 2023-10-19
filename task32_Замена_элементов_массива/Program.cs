@@ -35,7 +35,7 @@ void PrintNumArray(int[] arr)
         System.Console.Write(arr[i] * num);
         if (i < arr.Length - 1)
 
-            System.Console.Write(", ");//[5, 7, 1, 4]
+            System.Console.Write(", ");
     }
     System.Console.WriteLine("]");
 }

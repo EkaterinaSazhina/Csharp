@@ -5,36 +5,50 @@
 [1 2 3 4 5] -> 5 8 3
 [6 7 3 6] -> 12 10
 */
-int[] array = { 1, 2, 3, 4, 5 };
-int[] newArray = GetNewArray(array);
-PrintArray(newArray);
-int[] GetNewArray(int[] arr)
+
+int[] GetRandomArray(int size)
 {
-    int[] newArray = new int[arr.Length / 2];
-    for (int i = 0; i < arr.Length / 2; i++)
+    int[] array = new int[size];
+    for (int i = 0; i < size; i++)
     {
-        if (arr.Length % 2 == 0)
-        {
-            newArray[i] = arr[i] * arr[arr.Length - 1 - i];
-        }
-        else if (arr.Length % 2 == 1)
-        {
-            int number = arr.Length / 2 + 1;
-            newArray[i] = arr[i] * arr[arr.Length - 1 - i];
-        }
+        array[i] = new Random().Next(0, 10);
     }
-    return newArray;
+    return array;
 }
 
 void PrintArray(int[] arr)
 {
-    Console.Write("[");
+    System.Console.Write("[");
     for (int i = 0; i < arr.Length; i++)
     {
-        Console.Write(arr[i]);
-        if (i < arr.Length - 1)
-            Console.Write(", ");
+        System.Console.Write(arr[i]);
+        if (i < arr.Length - 1) System.Console.Write(", ");// [5, 7, 1, 4
+
     }
-    Console.WriteLine("]");
+
+    System.Console.Write("]");
 }
+
+int[] ProductArray(int[] arr)                // метод для перемножения пар чисел в одномерном массиве 
+                                // и передачи результатов перемножения в новый массив
+{
+    int size=0;
+    if (arr.Length%2==1) size=arr.Length/2+1;            // условие, при котором если в исходном массиве нечетное число элементов, 
+    else size=arr.Length/2;                    // чтобы при перемножении пар элементов, начиная с концов массива создать иллюзию
+                                    // перемножения центрального элемента самого на себя
+    int[] res = new int[size];                    // создание нового массива, куда будут записаны результаты перемножения
+    for (int i = 0; i < size; i++)
+    {
+        if ((arr.Length%2==1)&&(i==size-1)) res[i]=arr[i];    // условие, при котором при нечетном количестве элементов исходного массива 
+        else res[i] = arr[i]*arr[arr.Length-i-1];        // средний его элемент будет приравнен к последнему элементу нового массива
+    }
+    return res;
+}
+int[] userArray = GetRandomArray(7);
+PrintArray(userArray);
+System.Console.WriteLine();
+int[] newArray = ProductArray(userArray);
+PrintArray(newArray);
+
+
 
