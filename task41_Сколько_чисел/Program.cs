@@ -4,13 +4,11 @@
 1, -7, 567, 89, 223-> 3
 */ 
 Console.WriteLine("Введите числа, разделяя их запятой:");
-        string num = Console.ReadLine(); // Считываем ввод пользователя
-       
-    static int CountNumbers(string num)
-    {
-        string[] numbers = num.Split(','); // Разделяем строку на числа через метод Split
-
-        int count = 0;
+string num = Console.ReadLine(); // Считываем ввод пользователя
+int CountNumbers(string num)
+{
+     string[] numbers = num.Split(','); // Разделяем строку на числа через метод Split
+     int count = 0;
         foreach (string i in numbers)
         {
             int parsedNumber;
@@ -22,8 +20,7 @@ Console.WriteLine("Введите числа, разделяя их запято
                 }
             }
         }
-
-        return count;
-    }
+  return count;
+}
      int count = CountNumbers(num);
     Console.WriteLine("Количество чисел больше 0: " + count);
