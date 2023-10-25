@@ -3,7 +3,7 @@
 0, 7, 8, -2, -2 -> 2
 1, -7, 567, 89, 223-> 3
 */ 
-Console.WriteLine("Введите числа, разделяя их запятой:");
+/*Console.WriteLine("Введите числа, разделяя их запятой:");
 string num = Console.ReadLine(); // Считываем ввод пользователя
 int CountNumbers(string num)
 {
@@ -23,4 +23,16 @@ int CountNumbers(string num)
   return count;
 }
      int count = CountNumbers(num);
-    Console.WriteLine("Количество чисел больше 0: " + count);
+    Console.WriteLine("Количество чисел больше 0: " + count);*/
+    System.Console.Write("Укажите количество чисел: ");
+int value = int.Parse(System.Console.ReadLine());
+
+int count = 0;
+
+for(int i = 0; i < value; i++)
+{
+    System.Console.Write("Введите число: ");
+    if(int.Parse(System.Console.ReadLine()) > 0 ) count++;
+}
+
+System.Console.WriteLine("Чисел со значением больше нуля было введено: " + count);
