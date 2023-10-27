@@ -12,7 +12,7 @@ int[] GetArray(int size)
     {
         array[i] = new Random().Next(-99, 99);
     }
-    return array;
+   return array;
 }
 void PrintArray(int[] arr)
 {
@@ -43,3 +43,4 @@ int[] userArray = GetArray(size);
 int[] userNumArray = GetArray(size);
 PrintArray(userArray);
 PrintNumArray(userNumArray);
+PrintArray(userArray);
